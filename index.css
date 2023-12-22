@@ -1,0 +1,172 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+nav {
+    background-color: rgb(0, 0, 0);
+    height: 85px;
+    width: 100%;
+}
+
+label.logo1 {
+    color: white;
+    font-size: 20px;
+    line-height: 80px;
+    padding: 0 20px;
+    font-weight: bold;
+
+
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+
+}
+
+nav ul li {
+    
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a:hover{
+    color: black;
+    background-color: white;}
+nav ul li a {
+    color: white;
+    font-size: 18px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+a.active,
+a:hover {
+    background: rgb(0, 0, 0);
+    transition: .5s;
+}
+
+.checkbtn {
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 70px;
+    margin: 15px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+
+}
+
+@media (min-width:952px) {
+    label.logo {
+        font-size: 30px;
+        padding-left: 50px;
+
+    }
+
+    nav ul li a {
+        font-size: 16px;
+
+    }
+}
+
+
+@media (max-width:858px) {
+    .nav {
+        background-color: black;
+        display: flexbox;
+
+    }
+    .label.logo1{
+        padding: left 0px; ;
+    }
+    label.logo1{
+        display: none;
+        padding-left: 0%;
+    }
+    .nav ul li {
+        float: right;
+        background-color: black;
+    }
+    nav ul {
+        display: contents;
+        float: right;
+        margin-right: 20px;
+        line-height: 80px;
+}}
+
+main {
+    width: 100%;
+    opacity: 1;
+    background-image: url('https://wallpapercave.com/wp/wp2382500.jpg');
+    /* Replace 'background.jpg' with your background image */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+    padding: 100px 0;
+    height: 100vh;
+    /* Ensure the section takes up the entire viewport height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+/* 
+#menu {
+    height: 38px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+} */
+
+/* h1{
+    font-size: 45px;
+} */
+
+.contener {
+    box-shadow: inset 2px 2px 50px rgba(0, 0, 0, 0.5);
+    font-size: 28px;
+    padding: 5%;
+    border-radius: 45px;
+
+}
+
+.contener h1 {
+    padding: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.contener p {
+    color: white;
+}
+
+.pro {
+    margin-top: 15px;
+    font-size: 18px;
+    padding: 15px;
+    border-radius: 20px;
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+a {
+    color: aliceblue;
+}

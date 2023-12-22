@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+
+  .image-container {
+    margin-bottom: 20px;
+  }
+
+   .download-link {
+    padding: 15px;
+    display: block;
+    margin-top: 10px;
+  }
+
+  .image-container {
+    box-shadow: 2px 2px 20px;
+    border-radius: 12px;
+    border: 2px solid black;
+    /* position: relative; */
+    display: inline-block;
+    margin: 10px;
+  }
+ 
